@@ -74,5 +74,6 @@
     position: relative;
     left: 51.9%;
     bottom: 40%;
+    box-shadow: 1px 5px 6px whitesmoke;
 
 }
