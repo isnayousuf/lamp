@@ -1,0 +1,78 @@
+.container{
+    width: 40rem;
+    height: 30rem;
+    background-color: coral;
+}
+.base{
+    width: 5rem;
+    height: 2rem;
+    border: 8px solid rgb(20, 17, 17);
+    background-color: rgb(20, 17, 17);
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+    top: 70%;;
+    box-shadow: 0 0 0 30px  rgb(20, 17, 17);
+                
+
+}
+.stand{
+    height: 12rem;
+    width: 0;
+    border: 4px solid black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    left: 37%;
+    top: 22%;
+}
+.bend{
+    width: 8rem;
+    height: 2.5rem;
+    border: 8px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 40%;
+    border-bottom: none;
+    position: relative;
+    left:37%;
+    bottom: 27%;
+    transform: rotateZ()
+}
+.bulb{
+    width: 6rem;
+    height: 3rem;
+    border: 8px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+     background-color: rgb(122, 78, 11);
+    
+    position: relative;
+    left:50.5%;
+    bottom: 28%;
+    /*  */
+}
+.base2{
+    width: 5rem;
+    height: 2rem;
+    border: 8px solid rgb(20, 17, 17);
+    background-color: rgb(20, 17, 17) ;
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+    
+    box-shadow: 0 0 0 30px  rgb(20, 17, 17);
+                
+
+
+}
+.bulb-inner{
+    width: 5.6rem;
+    height: 0.5rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    left: 51.9%;
+    bottom: 40%;
+
+}
